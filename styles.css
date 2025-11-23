@@ -16,7 +16,7 @@ body {
 
 /* Header Customization */
 h1, h2, h3 {
-    font-family: 'Instrument Serif', serif; /* Custom font for headers */
+    font-family: 'Geist', sans-serif; /* Custom font for headers */
     color: #fff; /* Primary header color */
     margin-bottom: 10px; /* Space below headers */
 }
