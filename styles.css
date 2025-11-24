@@ -48,3 +48,11 @@ a:hover {
 .button:hover {
     background-color: #006ffe; /* Darker shade on hover */
 }
+
+@font-face {
+  font-family: "Geist";
+  src: url("/Geist-Regular.woff2") format("woff2");
+  font-weight: 100 900;   /* range of supported weights */
+  font-stretch: 75% 125%; /* optional width range */
+  font-style: normal italic;
+}
