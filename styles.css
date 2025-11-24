@@ -34,20 +34,24 @@ a:hover {
     text-decoration: none; /* Underline on hover */
 }
 
-/* Buttons */
 .button {
-    background-color: #005be7; /* Button background color */
-    color: white; /* Button text color */
-    padding: 10px 20px; /* Button padding */
-    border: 0.5 solid #fff; /* No border */
-    border-radius: 100px; /* Rounded corners */
-    cursor: pointer; /* Cursor on hover */
-    transition: background-color 0.3s; /* Smooth background transition */
+  font: 16px 500 Arial, sans-serif;
+  color: #ffffff;
+  background-color: #005be7;
+  border: 0.5px solid #ffffff;
+  border-radius: 25px;
+  outline: none;
+  padding: 8px 13px;
+    
+  cursor: pointer;
+  
+  transition: all 0.3s ease-in-out;
 }
 
 .button:hover {
-    background-color: #006ffe; /* Darker shade on hover */
-}
+  border: 1px solid #ffffff;
+  padding: 8px 13px;
+      background-color: #005be7;
 
 @font-face {
   font-family: "Geist";
