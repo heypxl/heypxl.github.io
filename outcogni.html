@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>outcogni</title>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script> 
+  </head>
+  <body>
+    <a href="https://pxl.env.pm/outcogni.html"><img src="https://pxl.env.pm/cogni.svg"></a>
+    <h1>a group of cool people making cool things for a not-so-cool world.</h1>
+    <p>coming soon.</p>
+<form id="myForm"> <input type="text" name="name" required> <input type="email" name="email" required> <button type="submit">submit</button> </form> 
+    <script javascript const { createClient } = supabase; const supabaseUrl = 'https://syhgseucaczoqugjenxb.supabase.co'; const supabaseKey = 'sb_publishable_HQVORXpJJPwEEOi97KbcQA_T84-B215'; const supabase = createClient(supabaseUrl, supabaseKey); document.getElementById('myForm').addEventListener('submit', async (e) => { e.preventDefault(); const name = e.target.name.value; const email = e.target.email.value; const { data, error } = await supabase.from('submissions').insert([{ name, email }]); if (error) console.error('Error:', error); else console.log('Success:', data); }); </script>
+  </body>
+</html>
