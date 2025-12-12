@@ -1,0 +1,18 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local tooling
+node_modules/
+
+# Build / cache
+.dist/
+dist/
+.cache/
+
+# Env
+.env
+.env.*
